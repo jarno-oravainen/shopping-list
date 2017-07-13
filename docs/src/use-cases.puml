@@ -1,0 +1,13 @@
+@startuml
+
+User -> (Login) : Concurrent logins possible
+User --> (Get lists)
+User --> (Add new list)
+User --> (Rename list)
+User --> (Remove list)
+User --> (Select the active list)
+User --> (Add item to the active list) : Select from existing items or create new
+User --> (Remove item from the active list)
+User --> (Mark/unmark item in the active list as bought)
+
+@enduml
